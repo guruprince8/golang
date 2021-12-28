@@ -1,0 +1,11 @@
+/* https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-20-04 */
+
+1. cd ~
+2. curl -OL https://golang.org/dl/go1.16.7.linux-amd64.tar.gz
+3. sha256sum go1.16.7.linux-amd64.tar.gz
+4. sudo tar -C /usr/local -xvf go1.16.7.linux-amd64.tar.gz
+5. sudo nano ~/.profile
+6. source ~/.profile
+7. go version
+
+
